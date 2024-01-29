@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings": [
+    {"name":"flag","order":1,"path":"folders/Sprites/flag.yy",},
+    {"name":"act1","order":1,"path":"folders/Sprites/character/npc/act1.yy",},
+    {"name":"bg","order":2,"path":"folders/Sprites/bg.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_bm","order":1,"path":"sprites/spr_bm/spr_bm.yy",},
+    {"name":"obj_law1","order":2,"path":"objects/obj_law1/obj_law1.yy",},
+    {"name":"npc_alibi","order":1,"path":"sprites/npc_alibi/npc_alibi.yy",},
+    {"name":"victim","order":3,"path":"sprites/victim/victim.yy",},
+    {"name":"italy","order":1,"path":"sprites/italy/italy.yy",},
+    {"name":"dia_npc2","order":2,"path":"objects/dia_npc2/dia_npc2.yy",},
+    {"name":"obj_bm","order":1,"path":"objects/obj_bm/obj_bm.yy",},
+    {"name":"usa","order":2,"path":"sprites/usa/usa.yy",},
+    {"name":"obj_alibi","order":1,"path":"objects/obj_alibi/obj_alibi.yy",},
+    {"name":"farmer","order":1,"path":"sprites/farmer/farmer.yy",},
+    {"name":"spr_law","order":2,"path":"sprites/spr_law/spr_law.yy",},
+    {"name":"seller","order":2,"path":"sprites/seller/seller.yy",},
+  ],
+}
