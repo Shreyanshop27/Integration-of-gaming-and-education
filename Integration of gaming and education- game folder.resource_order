@@ -1,15 +1,21 @@
 {
   "FolderOrderSettings": [
+    {"name":"video","order":1,"path":"folders/Objects/video.yy",},
     {"name":"bg","order":2,"path":"folders/Sprites/bg.yy",},
     {"name":"act1","order":1,"path":"folders/Sprites/character/npc/act1.yy",},
     {"name":"flag","order":1,"path":"folders/Sprites/flag.yy",},
-    {"name":"video","order":1,"path":"folders/Objects/video.yy",},
+    {"name":"easy","order":3,"path":"folders/Objects/dialogue/court/easy.yy",},
+    {"name":"advanced","order":4,"path":"folders/Objects/dialogue/court/advanced.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bm","order":1,"path":"sprites/spr_bm/spr_bm.yy",},
+    {"name":"q2op1","order":1,"path":"objects/q2op1/q2op1.yy",},
+    {"name":"q1op1","order":1,"path":"objects/q1op1/q1op1.yy",},
     {"name":"obj_law1","order":2,"path":"objects/obj_law1/obj_law1.yy",},
+    {"name":"q1op2","order":2,"path":"objects/q1op2/q1op2.yy",},
     {"name":"npc_alibi","order":1,"path":"sprites/npc_alibi/npc_alibi.yy",},
     {"name":"victim","order":3,"path":"sprites/victim/victim.yy",},
+    {"name":"q2op2","order":2,"path":"objects/q2op2/q2op2.yy",},
     {"name":"italy","order":1,"path":"sprites/italy/italy.yy",},
     {"name":"dia_npc2","order":2,"path":"objects/dia_npc2/dia_npc2.yy",},
     {"name":"obj_bm","order":1,"path":"objects/obj_bm/obj_bm.yy",},

@@ -17,5 +17,5 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "1/4"
 /// @DnDArgument : "yscale" "1/4"
-/// @DnDArgument : "caption" ""SI= (principle x time x rate)/100""
-draw_text_transformed(x + 0, y + 0, string("SI= (principle x time x rate)/100") + "", 1/4, 1/4, 0);
+/// @DnDArgument : "caption" ""360 cubic meter""
+draw_text_transformed(x + 0, y + 0, string("360 cubic meter") + "", 1/4, 1/4, 0);

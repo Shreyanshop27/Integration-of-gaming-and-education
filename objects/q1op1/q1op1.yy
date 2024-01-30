@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "court",
-    "path": "folders/Objects/dialogue/court.yy",
+    "name": "easy",
+    "path": "folders/Objects/dialogue/court/easy.yy",
   },
   "parentObjectId": null,
   "persistent": false,

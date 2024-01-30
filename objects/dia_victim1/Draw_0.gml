@@ -50,7 +50,8 @@ if(dia_count == 0)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	draw_text_transformed(x + 0, y + 0, string("Caption: ") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""Hey mister, I heard\n you won a case \nbecause of your ""
+	draw_text_transformed(x + 0, y + 0, string("Hey mister, I heard\n you won a case \nbecause of your ") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -68,8 +69,8 @@ if(dia_count == 1)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""I have taken a loan\nfrom buisness man. but""
-	draw_text_transformed(x + 0, y + 0, string("I have taken a loan\nfrom buisness man. but") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""good mathematic. can you\n help me to find""
+	draw_text_transformed(x + 0, y + 0, string("good mathematic. can you\n help me to find") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -87,8 +88,8 @@ if(dia_count == 2)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""I dont know what\n simple interest is""
-	draw_text_transformed(x + 0, y + 0, string("I dont know what\n simple interest is") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""area of cuboidal well\n which is 12m deep""
+	draw_text_transformed(x + 0, y + 0, string("area of cuboidal well\n which is 12m deep") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -106,8 +107,8 @@ if(dia_count == 3)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""please help me""
-	draw_text_transformed(x + 0, y + 0, string("please help me") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""and is lenght and breath\n is 5m and 6m repectively""
+	draw_text_transformed(x + 0, y + 0, string("and is lenght and breath\n is 5m and 6m repectively") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
