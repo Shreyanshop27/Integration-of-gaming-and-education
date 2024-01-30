@@ -1,8 +1,9 @@
 {
   "FolderOrderSettings": [
-    {"name":"flag","order":1,"path":"folders/Sprites/flag.yy",},
-    {"name":"act1","order":1,"path":"folders/Sprites/character/npc/act1.yy",},
     {"name":"bg","order":2,"path":"folders/Sprites/bg.yy",},
+    {"name":"act1","order":1,"path":"folders/Sprites/character/npc/act1.yy",},
+    {"name":"flag","order":1,"path":"folders/Sprites/flag.yy",},
+    {"name":"video","order":1,"path":"folders/Objects/video.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bm","order":1,"path":"sprites/spr_bm/spr_bm.yy",},
@@ -12,6 +13,8 @@
     {"name":"italy","order":1,"path":"sprites/italy/italy.yy",},
     {"name":"dia_npc2","order":2,"path":"objects/dia_npc2/dia_npc2.yy",},
     {"name":"obj_bm","order":1,"path":"objects/obj_bm/obj_bm.yy",},
+    {"name":"rm_cube","order":1,"path":"rooms/rm_cube/rm_cube.yy",},
+    {"name":"vid_cube","order":1,"path":"objects/vid_cube/vid_cube.yy",},
     {"name":"usa","order":2,"path":"sprites/usa/usa.yy",},
     {"name":"obj_alibi","order":1,"path":"objects/obj_alibi/obj_alibi.yy",},
     {"name":"farmer","order":1,"path":"sprites/farmer/farmer.yy",},

@@ -44,14 +44,13 @@ if(dia_count == 0)
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 6405C991
+	/// @DnDHash : 772F2D06
 	/// @DnDParent : 4811E2EA
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""Hey mister I heard\nyou have a good math""
-	draw_text_transformed(x + 0, y + 0, string("Hey mister I heard\nyou have a good math") + "", 1/2, 1/2, 0);
+	draw_text_transformed(x + 0, y + 0, string("Caption: ") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
