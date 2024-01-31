@@ -69,8 +69,8 @@ if(global.money_que == 0)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""My honour, this man tried to\ntrespass into my property and also""
-		draw_text_transformed(x + 0, y + 0, string("My honour, this man tried to\ntrespass into my property and also") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""My honour, this man have\n trespass into my property""
+		draw_text_transformed(x + 0, y + 0, string("My honour, this man have\n trespass into my property") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -89,8 +89,8 @@ if(global.money_que == 0)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""tried to steal forest goods\nI own half of the forest""
-		draw_text_transformed(x + 0, y + 0, string("tried to steal forest goods\nI own half of the forest") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""If I were not have arrived \nin time he might have \nstolen timber from my forest plantation""
+		draw_text_transformed(x + 0, y + 0, string("If I were not have arrived \nin time he might have \nstolen timber from my forest plantation") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -109,8 +109,8 @@ if(global.money_que == 0)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""forest area is 10m x 10m.\nso I own 75m sq of land""
-		draw_text_transformed(x + 0, y + 0, string("forest area is 10m x 10m.\nso I own 75m sq of land") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""I own half the forest.\nforest is 10km x 10km\nso my land area is 75m sq.""
+		draw_text_transformed(x + 0, y + 0, string("I own half the forest.\nforest is 10km x 10km\nso my land area is 75m sq.") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -152,8 +152,7 @@ if(global.money_que == 1)
 	/// @DnDHash : 4EE2277F
 	/// @DnDParent : 37D1F6FC
 	/// @DnDArgument : "var" "dia_count"
-	/// @DnDArgument : "value" "1"
-	if(dia_count == 1)
+	if(dia_count == 0)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -163,8 +162,8 @@ if(global.money_que == 1)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""My, this man have\n tried to trespass and steal from my\nforest.""
-		draw_text_transformed(x + 0, y + 0, string("My, this man have\n tried to trespass and steal from my\nforest.") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""My honour, this man have\n trespass into my property""
+		draw_text_transformed(x + 0, y + 0, string("My honour, this man have\n trespass into my property") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -172,8 +171,8 @@ if(global.money_que == 1)
 	/// @DnDHash : 42BE0C2A
 	/// @DnDParent : 37D1F6FC
 	/// @DnDArgument : "var" "dia_count"
-	/// @DnDArgument : "value" "2"
-	if(dia_count == 2)
+	/// @DnDArgument : "value" "1"
+	if(dia_count == 1)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -183,8 +182,8 @@ if(global.money_que == 1)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""The forest is in the\n shape of regular octagon\nwith 6m side each""
-		draw_text_transformed(x + 0, y + 0, string("The forest is in the\n shape of regular octagon\nwith 6m side each") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""If I were not have arrived \nin time he might have \nstolen timber from my forest plantation.""
+		draw_text_transformed(x + 0, y + 0, string("If I were not have arrived \nin time he might have \nstolen timber from my forest plantation.") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -192,8 +191,8 @@ if(global.money_que == 1)
 	/// @DnDHash : 3306B966
 	/// @DnDParent : 37D1F6FC
 	/// @DnDArgument : "var" "dia_count"
-	/// @DnDArgument : "value" "3"
-	if(dia_count == 3)
+	/// @DnDArgument : "value" "2"
+	if(dia_count == 2)
 	{
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
@@ -203,8 +202,8 @@ if(global.money_que == 1)
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "xscale" "1/3"
 		/// @DnDArgument : "yscale" "1/3"
-		/// @DnDArgument : "caption" ""and I own half of\nthe land. Which has\narea of 276m sq.""
-		draw_text_transformed(x + 0, y + 0, string("and I own half of\nthe land. Which has\narea of 276m sq.") + "", 1/3, 1/3, 0);
+		/// @DnDArgument : "caption" ""I own a circular plot in the rectangular\n forest. radius of the circular land\n is 7 km, so I own 1078sq km land""
+		draw_text_transformed(x + 0, y + 0, string("I own a circular plot in the rectangular\n forest. radius of the circular land\n is 7 km, so I own 1078sq km land") + "", 1/3, 1/3, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -212,8 +211,8 @@ if(global.money_que == 1)
 	/// @DnDHash : 5799F4AD
 	/// @DnDParent : 37D1F6FC
 	/// @DnDArgument : "var" "dia_count"
-	/// @DnDArgument : "value" "4"
-	if(dia_count == 4)
+	/// @DnDArgument : "value" "3"
+	if(dia_count == 3)
 	{
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1

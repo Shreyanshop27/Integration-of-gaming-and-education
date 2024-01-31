@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 39E88E5A
+/// @DnDArgument : "room" "rm_rectangle"
+/// @DnDSaveInfo : "room" "rm_rectangle"
+room_goto(rm_rectangle);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1C3E0FD4

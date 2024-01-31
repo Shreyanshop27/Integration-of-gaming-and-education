@@ -10,5 +10,5 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "1/3"
 /// @DnDArgument : "yscale" "1/3"
-/// @DnDArgument : "caption" ""276m sq""
-draw_text_transformed(x + 0, y + 0, string("276m sq") + "", 1/3, 1/3, 0);
+/// @DnDArgument : "caption" ""1078km sq""
+draw_text_transformed(x + 0, y + 0, string("1078km sq") + "", 1/3, 1/3, 0);
