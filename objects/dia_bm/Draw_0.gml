@@ -147,13 +147,96 @@ if(global.money_que == 0)
 /// @DnDArgument : "value" "1"
 if(global.money_que == 1)
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 7243CAD8
+	/// @DnDHash : 4EE2277F
 	/// @DnDParent : 37D1F6FC
-	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "xscale" "1/3"
-	/// @DnDArgument : "yscale" "1/3"
-	draw_text_transformed(x + 0, y + 0, string("Caption: ") + "", 1/3, 1/3, 0);
+	/// @DnDArgument : "var" "dia_count"
+	/// @DnDArgument : "value" "1"
+	if(dia_count == 1)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 7243CAD8
+		/// @DnDParent : 4EE2277F
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "1/3"
+		/// @DnDArgument : "yscale" "1/3"
+		/// @DnDArgument : "caption" ""My, this man have\n tried to trespass and steal from my\nforest.""
+		draw_text_transformed(x + 0, y + 0, string("My, this man have\n tried to trespass and steal from my\nforest.") + "", 1/3, 1/3, 0);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 42BE0C2A
+	/// @DnDParent : 37D1F6FC
+	/// @DnDArgument : "var" "dia_count"
+	/// @DnDArgument : "value" "2"
+	if(dia_count == 2)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 52CE23FC
+		/// @DnDParent : 42BE0C2A
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "1/3"
+		/// @DnDArgument : "yscale" "1/3"
+		/// @DnDArgument : "caption" ""The forest is in the\n shape of regular octagon\nwith 6m side each""
+		draw_text_transformed(x + 0, y + 0, string("The forest is in the\n shape of regular octagon\nwith 6m side each") + "", 1/3, 1/3, 0);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3306B966
+	/// @DnDParent : 37D1F6FC
+	/// @DnDArgument : "var" "dia_count"
+	/// @DnDArgument : "value" "3"
+	if(dia_count == 3)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 420F7974
+		/// @DnDParent : 3306B966
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "xscale" "1/3"
+		/// @DnDArgument : "yscale" "1/3"
+		/// @DnDArgument : "caption" ""and I own half of\nthe land. Which has\narea of 276m sq.""
+		draw_text_transformed(x + 0, y + 0, string("and I own half of\nthe land. Which has\narea of 276m sq.") + "", 1/3, 1/3, 0);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5799F4AD
+	/// @DnDParent : 37D1F6FC
+	/// @DnDArgument : "var" "dia_count"
+	/// @DnDArgument : "value" "4"
+	if(dia_count == 4)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 4704D07B
+		/// @DnDParent : 5799F4AD
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "dia_law2"
+		/// @DnDArgument : "layer" ""text""
+		/// @DnDSaveInfo : "objectid" "dia_law2"
+		instance_create_layer(x + 0, y + 0, "text", dia_law2);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1762B31F
+		/// @DnDParent : 5799F4AD
+		/// @DnDArgument : "var" "dia_count"
+		dia_count = 0;
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 6FD85B41
+		/// @DnDParent : 5799F4AD
+		instance_destroy();
+	}
 }

@@ -106,10 +106,10 @@ if(dia_count == 2)
 	/// @DnDArgument : "xpos" "-40"
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "q1op1"
+	/// @DnDArgument : "objectid" "q2op1"
 	/// @DnDArgument : "layer" ""text""
-	/// @DnDSaveInfo : "objectid" "q1op1"
-	instance_create_layer(x + -40, y + 0, "text", q1op1);
+	/// @DnDSaveInfo : "objectid" "q2op1"
+	instance_create_layer(x + -40, y + 0, "text", q2op1);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -118,10 +118,10 @@ if(dia_count == 2)
 	/// @DnDArgument : "xpos" "40"
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "q1op2"
+	/// @DnDArgument : "objectid" "q2op2"
 	/// @DnDArgument : "layer" ""text""
-	/// @DnDSaveInfo : "objectid" "q1op2"
-	instance_create_layer(x + 40, y + 0, "text", q1op2);
+	/// @DnDSaveInfo : "objectid" "q2op2"
+	instance_create_layer(x + 40, y + 0, "text", q2op2);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

@@ -118,6 +118,18 @@ if(dia_count == 3)
 /// @DnDArgument : "value" "4"
 if(dia_count == 4)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 55F39FFB
+	/// @DnDParent : 58E2F47D
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "-30"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_aquired"
+	/// @DnDArgument : "layer" ""object""
+	/// @DnDSaveInfo : "objectid" "obj_aquired"
+	instance_create_layer(x + 0, y + -30, "object", obj_aquired);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 520D186C
