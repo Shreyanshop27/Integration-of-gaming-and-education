@@ -17,5 +17,5 @@ draw_self();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "1/4"
 /// @DnDArgument : "yscale" "1/4"
-/// @DnDArgument : "caption" ""300cubic meter""
-draw_text_transformed(x + 0, y + 0, string("300cubic meter") + "", 1/4, 1/4, 0);
+/// @DnDArgument : "caption" ""300 cubic meter""
+draw_text_transformed(x + 0, y + 0, string("300 cubic meter") + "", 1/4, 1/4, 0);

@@ -16,5 +16,5 @@ global.check = 0;
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "xscale" "1/3"
 /// @DnDArgument : "yscale" "1/3"
-/// @DnDArgument : "caption" ""50m sq""
-draw_text_transformed(x + 0, y + 0, string("50m sq") + "", 1/3, 1/3, 0);
+/// @DnDArgument : "caption" ""50km sq""
+draw_text_transformed(x + 0, y + 0, string("50km sq") + "", 1/3, 1/3, 0);

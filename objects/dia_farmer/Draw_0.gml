@@ -50,8 +50,8 @@ if(dia_count == 0)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""Help me!\nI am ill""
-	draw_text_transformed(x + 0, y + 0, string("Help me!\nI am ill") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""Help me!\nI have flu""
+	draw_text_transformed(x + 0, y + 0, string("Help me!\nI have flu") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

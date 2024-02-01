@@ -1,0 +1,124 @@
+1
+00:00:00,866 --> 00:00:03,233
+so if we divide a circle into even more smaller pieces
+
+2
+00:00:03,666 --> 00:00:04,466
+you can see that every time
+
+3
+00:00:04,466 --> 00:00:05,999
+the shape becomes more like a rectangle
+
+4
+00:00:07,700 --> 00:00:09,166
+so how small was we divide a circle
+
+5
+00:00:09,166 --> 00:00:10,966
+before we can get a perfect rectangle
+
+6
+00:00:14,600 --> 00:00:16,666
+well we can keep on doing the circle into small
+
+7
+00:00:16,666 --> 00:00:18,966
+smaller or the smallest pieces you can make
+
+8
+00:00:19,300 --> 00:00:20,866
+but the answer is to divide the circle infinitely
+
+9
+00:00:20,866 --> 00:00:22,599
+many times until we can distinguish the lines
+
+10
+00:00:22,600 --> 00:00:23,133
+and eventually
+
+11
+00:00:23,133 --> 00:00:25,099
+the circle can now become the perfect rectangle
+
+12
+00:00:28,133 --> 00:00:29,266
+so the area of the circle
+
+13
+00:00:29,266 --> 00:00:30,299
+is equal to the area of the rectangle
+
+14
+00:00:30,300 --> 00:00:31,666
+which is equal to base times height
+
+15
+00:00:32,200 --> 00:00:33,133
+the height of the rectangle
+
+16
+00:00:33,133 --> 00:00:33,666
+as you can see
+
+17
+00:00:33,666 --> 00:00:34,666
+is the same as the radius
+
+18
+00:00:34,666 --> 00:00:36,066
+so height is equal to radius
+
+19
+00:00:36,533 --> 00:00:37,466
+to find the base
+
+20
+00:00:37,733 --> 00:00:39,299
+we need to look at the circumference of the circle
+
+21
+00:00:39,733 --> 00:00:41,266
+and when we compare the base on the circumference
+
+22
+00:00:41,266 --> 00:00:42,599
+we can see that the base is equal to
+
+23
+00:00:42,600 --> 00:00:43,900
+1/2 the circumference
+
+24
+00:00:45,466 --> 00:00:47,699
+remember that the circumference is equal to 2 by R
+
+25
+00:00:47,966 --> 00:00:49,299
+when we combine with 1/2
+
+26
+00:00:49,300 --> 00:00:50,266
+the 2 is canceled out
+
+27
+00:00:50,533 --> 00:00:52,033
+and base is equal to by R
+
+28
+00:00:52,933 --> 00:00:55,399
+so now base times height becomes pi r times r
+
+29
+00:00:55,500 --> 00:00:57,600
+Combine the r together and we have pi r squared
+
+30
+00:00:57,600 --> 00:00:59,166
+which is equal to the air of the rectangle
+
+31
+00:00:59,166 --> 00:01:00,866
+which is equal to the air of the circle
+

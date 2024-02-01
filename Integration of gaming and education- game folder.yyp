@@ -70,6 +70,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
   "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"circle_2.mp4","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"cube.mp4","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"rectangle.mp4","CopyToMask":-1,"filePath":"datafiles",},
   ],
@@ -169,9 +170,9 @@
     {"id":{"name":"obj_act1end","path":"objects/obj_act1end/obj_act1end.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_caption","path":"sprites/spr_caption/spr_caption.yy",},},
-    {"id":{"name":"rm_cube","path":"rooms/rm_cube/rm_cube.yy",},},
+    {"id":{"name":"rm_circle","path":"rooms/rm_circle/rm_circle.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
-    {"id":{"name":"vid_cube","path":"objects/vid_cube/vid_cube.yy",},},
+    {"id":{"name":"vid_circle","path":"objects/vid_circle/vid_circle.yy",},},
     {"id":{"name":"idle_up","path":"sprites/idle_up/idle_up.yy",},},
     {"id":{"name":"usa","path":"sprites/usa/usa.yy",},},
     {"id":{"name":"snd_bgmusic","path":"sounds/snd_bgmusic/snd_bgmusic.yy",},},
@@ -202,7 +203,7 @@
     {"roomId":{"name":"rm_door","path":"rooms/rm_door/rm_door.yy",},},
     {"roomId":{"name":"rm_rectangle","path":"rooms/rm_rectangle/rm_rectangle.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
-    {"roomId":{"name":"rm_cube","path":"rooms/rm_cube/rm_cube.yy",},},
+    {"roomId":{"name":"rm_circle","path":"rooms/rm_circle/rm_circle.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

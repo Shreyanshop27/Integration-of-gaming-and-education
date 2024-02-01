@@ -50,8 +50,8 @@ if(dia_count == 0)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""Hey mister, I heard\n you won a case \nbecause of your ""
-	draw_text_transformed(x + 0, y + 0, string("Hey mister, I heard\n you won a case \nbecause of your ") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""I want your help\nI want to know how much \nwater my well""
+	draw_text_transformed(x + 0, y + 0, string("I want your help\nI want to know how much \nwater my well") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -69,8 +69,8 @@ if(dia_count == 1)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""good mathematic. can you\n help me to find""
-	draw_text_transformed(x + 0, y + 0, string("good mathematic. can you\n help me to find") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""can hold. Because I want to \ndo irrigation in my\nfarm""
+	draw_text_transformed(x + 0, y + 0, string("can hold. Because I want to \ndo irrigation in my\nfarm") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -88,8 +88,8 @@ if(dia_count == 2)
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "xscale" "1/2"
 	/// @DnDArgument : "yscale" "1/2"
-	/// @DnDArgument : "caption" ""area of cuboidal well\n which is 12m deep""
-	draw_text_transformed(x + 0, y + 0, string("area of cuboidal well\n which is 12m deep") + "", 1/2, 1/2, 0);
+	/// @DnDArgument : "caption" ""the cuboidal well\nis 12m deep""
+	draw_text_transformed(x + 0, y + 0, string("the cuboidal well\nis 12m deep") + "", 1/2, 1/2, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
